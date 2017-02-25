@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="../bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/contact.css">
+	<script src="../js/contact.js"></script>
+
+</head>
+
+<script type="text/javascript">
+	
+	var toggled = true;
+
+$("#toggle_menu").click(function(){
+    if(toggled) {
+        toggled=false;
+    $(this).animate({width: "20px"}, "fast");
+    }else {
+        toggled=true;
+            $(this).animate({width: "200px"}, "fast");
+    }
+});
+</script>
+
+<body>
+<!-- HEADER -->
+	<div class="header">
+		<!-- Top Navbar Début -->
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../Index.html">OGS Tennis</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <form class="navbar-form navbar-right">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Identifiant">
+                    <input type="password" class="form-control" placeholder="Mot de passe">
+                </div>
+                <button type="submit" class="btn btn-default">Se connecter</button>
+                <button type="submit" class="btn btn-default">Se déconnecter</button>
+              </form>
+              <ul class="nav navbar-nav navbar-left">
+                  <li><a href="#">Evénements</a></li>
+                  <li><a href="../pages/galery.html">Galerie</a></li>
+                  <li><a href="../pages/contact.html">Contact</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+	</div>
+
+
+
+<!-- SIDEBAR -->
+<!-- MAIN -->
+	    <div class="row-container page_1">
+	    	<div class="row-content">
+		    	<div class="row">
+		    		<div class="column" style="width:45%">
+					    <div class="block_presentation">
+					    	<p class="lead">
+Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
+							</p>
+					    </div>
+					    <div class="block_information">
+					    	<address>
+								<strong>Twitter, Inc.</strong><br>
+								1355 Market Street, Suite 900<br>
+								San Francisco, CA 94103<br>
+								<abbr title="Phone">P:</abbr> (123) 456-7890
+								</address>
+
+								<address>
+								<strong>Full Name</strong><br>
+								<a href="mailto:#">first.last@example.com</a>
+							</address>
+					    </div>
+					    
+					    <div class="block_localisation">
+					    	<p class="lead">Localisation</p>
+					    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.645230592407!2d3.042920715498582!3d50.633706982024655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d5795af8fd31%3A0x6932e8ba296a5afc!2s13+Rue+de+Toul%2C+59000+Lille!5e0!3m2!1sfr!2sfr!4v1486545220451" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+					    </div>
+					</div>
+				    <div class="column" style="width:45%" id="col_droite">
+				    	<form class="form-horizontal">
+						  <div class="form-group">
+						    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+						    <div class="col-sm-10">
+						      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+						    <div class="col-sm-10">
+						      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						  </div>
+
+						  <textarea class="form-control" rows="3"></textarea>
+						  <div class="form-group">
+						    <div class="col-sm-offset-2 col-sm-10">
+						      <button type="submit" class="btn btn-default">Sign in</button>
+						    </div>
+						  </div>
+						</form>
+				    </div>
+		    	</div> <!-- row-content -->
+		    </div> <!-- row -->
+	    </div> <!-- row-container page1 -->
+
+</body>
+</html>
