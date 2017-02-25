@@ -62,3 +62,65 @@ iframe{
   margin: 2%;
 }
 
+
+@media screen and (min-width: 0px) and (max-width:2000px) {
+    .footer {
+        background-color: #404040;
+        display: block;
+        padding: 5px;
+    }
+}
+.titre_footer {
+    color: white;
+}
+
+.column_sponsor {
+    display: inline-block;
+}
+.navbar {
+    margin-top:0px auto;
+}
+.navbar-left {
+    padding-left: 35px;
+    border-left : solid 1px;
+    border-color:#cccccc;
+}
+
+.glyphicon {
+    padding-right: 4px;
+}
+
+.btn-success {
+    margin-top: 15%;
+}
+address {
+    color:#cccccc;
+}
+
+.contact_footer {
+    text-decoration: underline;
+    color: #8c8c8c;
+}
+
+.mail_footer {
+    text-decoration: none;
+    color: #cccccc;
+}
+
+figure > * {
+    margin : 0 auto 0.55em;
+    display: block;
+}
+
+.block_information_footer_gauche {
+    width: 200px;
+    height: 100px;
+    margin-left: 50%;
+}
+
+.block_information_footer_droite {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    margin-left: 40%;
+}
