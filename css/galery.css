@@ -28,3 +28,4 @@ input[type=checkbox] {
 input[type=checkbox]:checked ~ .hidden {
    display: block;
 }
+
