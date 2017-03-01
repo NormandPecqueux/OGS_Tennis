@@ -1,0 +1,31 @@
+/*hide tab contenu*/
+#contentmenu{
+    margin-top: 79px;
+    background-color: #E9D4B5;
+    width: 25%;
+    height: 100%;
+}
+.show{
+    margin-top: 2%;
+    background-color: #CE9127;
+    width: 96%;
+    height: 10%;
+    padding-left: 4%;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.hidden{
+    display: none;
+    padding-left: 8%;
+    margin-top: 1%;
+}
+input[type=checkbox] {
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
+input[type=checkbox]:checked ~ .hidden {
+   display: block;
+}
+
