@@ -197,7 +197,7 @@
 }
 
 .block_formation {
-    background-image: url(../img/formation0.png);
+    background-image: url(../img/formation00.jpg);
     width:1520px;
     height:680px;
     background-repeat: no-repeat;
@@ -424,6 +424,27 @@ address {
     color: black;
 }
 
-
-
-
+.btn_stage{
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 150px;
+    height: 30px;
+    border: none;
+}
+.btn_entrainement{
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 150px;
+    height: 30px;
+    border: none;
+}
+.btn_formation {
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 150px;
+    height: 30px;
+    border: none;
+}

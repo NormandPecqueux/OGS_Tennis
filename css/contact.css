@@ -43,14 +43,21 @@
 .block_presentation, .block_information, .block_localisation{
   width: 90%;
   height: 30%;
-/*  background-color: orange;*/
   display: inline-block;
   margin: 5px;
 
 }
 
+.block_information{
+    background-color: rgba(0,0,20,0.9);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
 .row{
-  margin : 5px;
+    padding : 0px;
+    margin-top: 0px;
 }
 
 #col_droite{
@@ -123,4 +130,34 @@ figure > * {
     height: 100px;
     position: relative;
     margin-left: 40%;
+}
+
+.navbar-default {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    margin-top: 10px auto;
+    border-radius: 0;
+}
+
+.col-sm-9 {
+    padding: 0px;
+    width: 100% auto;
+}
+.page_1 {
+    padding-top: 60px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+.album2, .album3, .album4{
+    display: none;
+}
+
+body {
+    display: block;
 }
