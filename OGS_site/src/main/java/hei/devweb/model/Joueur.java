@@ -13,6 +13,14 @@ public class Joueur {
 	private String login ; 
 	
 	private String pswd ;
+	
+	public Joueur(long id, String nom, String prenom, int numero_adherant){
+		super();
+		this.id = id;
+		this.nom = nom;
+		this.prenom = prenom;
+		this.numero_adherant = numero_adherant;
+	}
 
 	public long getId() {
 		return id;

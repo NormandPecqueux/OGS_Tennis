@@ -1,36 +1,21 @@
 package hei.devweb.dao;
 
+import java.util.List;
+
+import hei.devweb.model.Joueur;
+
 public interface Joueur_dao {
 	
-	public void getJoueur(long id, String nom, String prenom, String nom_equipe);
+	public List<Joueur> getJoueurByNom(String nom);
 	
-	public void getJoueur(long id);
+	public List<Joueur> getJoueurByPrenom(String prenom);
 	
-	public void getJoueurByNom(String nom);
+	public List<Joueur> getJoueurByNomEquipe(String nom_equipe);
 	
-	public void getJoueurByPrenom(String prenom);
+	public List<Joueur> getJoueurByNumero(int numero);
 	
-	public void getJoueurByNomEquipe(String nom);
 	
-	public void getJoueurByNom(long id, String nom);
 	
-	public void getJoueurByPrenom(long id, String prenom);
-	
-	public void getJoueurByNomEquipe(long id, String nom_equipe);
-	
-	public void getJoueurByNomPrenom( String nom, String prenom);
-	
-	public void getJoueurByNomNomEquipe( String nom, String nom_equipe);
-	
-	public void getJoueurByPrenomNomEquipe ( String prenom, String nom_equipe);
-	
-	public void getJoueurByIdNomPrenom(long id, String nom, String prenom);
-	
-	public void getJoueurByidPrenomNomEquipe(long id, String prenom, String nom_equipe);
-	
-	public void getJoueurByIdNomNomEquipe(long id, String nom, String nom_equipe);
-	
-	public void getJoueurByNomPrenomNomEquipe( Sting nom, String prenom, String nom_equipe );
 	
 	
 	
