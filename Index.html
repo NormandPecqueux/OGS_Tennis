@@ -8,7 +8,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!--  <link rel="stylesheet" type="text/css" href="css/contact.css">-->
+    <link rel="stylesheet" type="text/css" href="css/w3.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
@@ -40,7 +40,7 @@
         <button type="submit" class="btn btn-default">Se déconnecter</button>
       </form>
       <ul class="nav navbar-nav navbar-left">
-          <li><a href="#"><span class="glyphicon glyphicon-calendar"></span>Evénements</a></li>
+          <li><a href="pages/evenement.html"><span class="glyphicon glyphicon-calendar"></span>Evénements</a></li>
           <li><a href="pages/galery.html"><span class="glyphicon glyphicon-picture"></span>Galerie</a></li>
           <li><a href="pages/contact.html"><span class="glyphicon glyphicon-earphone"></span>Contact</a></li>
       </ul>
@@ -66,96 +66,45 @@
                   </p>
                   </div>
                   <div class="block_presentation">
-                  <!-- Diapo Carousel 1 Début-->
+<!-- Diapo Carousel 1 Début-->
+                    <div class="diapo_slide">
+                    
+                        <h1>Diapo</h1>
 
-                    <div class="container-diapo1">
-                      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                          <li data-target="#myCarousel" data-slide-to="1"></li>
-                          <li data-target="#myCarousel" data-slide-to="2"></li>
-                          <li data-target="#myCarousel" data-slide-to="3"></li>
-                        </ol>
-
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox">
-                          <div class="item active">
-                            <img src="img/rdm1.jpg" alt="Chania" width="460" height="345">
-                          </div>
-
-                          <div class="item">
-                            <img src="img/rdm2.jpg" alt="Chania" width="460" height="345">
-                          </div>
-
-                          <div class="item">
-                            <img src="img/rdm3.jpg" alt="Flower" width="460" height="345">
-                          </div>
-
-                          <div class="item">
-                            <img src="img/rdm4.jpg" alt="Flower" width="460" height="345">
+                        <div class="w3-content w3-display-container" style="max-width:800px">
+                            <a href="pages/galery.html">
+                              <img class="mySlides" src="img/002.jpg" style="width:100%">
+                              <img class="mySlides" src="img/004.jpg" style="width:100%">
+                              <img class="mySlides" src="img/003.jpg" style="width:100%">
+                            </a>
+                          <div class="w3-center w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                            <div class="w3-left w3-padding-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                            <div class="w3-right w3-padding-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
                           </div>
                         </div>
-
-                        <!-- Left and right controls -->
-                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                          <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                          <span class="sr-only">Next</span>
-                        </a>
-                      </div>
                     </div>
-        <!-- Diapo Carousel 1 Fin-->
+<!-- Diapo Carousel 1 Fin-->
                   </div>              
               </div> <!-- column -->
               <div class="column" style="width:45%" id="col_droite">
                   <div class="block_presentation">
-                  <!-- Diapo Carousel 1 Début-->
-
-                    <div class="container-diapo1">
-                      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                          <li data-target="#myCarousel" data-slide-to="1"></li>
-                          <li data-target="#myCarousel" data-slide-to="2"></li>
-                          <li data-target="#myCarousel" data-slide-to="3"></li>
-                        </ol>
-
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox" width=45%>
-                          <div class="item active">
-                            <img src="img/rdm1.jpg" alt="Chania" width="460" height="345">
-                          </div>
-
-                          <div class="item">
-                            <img src="img/rdm2.jpg" alt="Chania" width="460" height="345">
-                          </div>
-
-                          <div class="item">
-                            <img src="img/rdm3.jpg" alt="Flower" width="460" height="345">
-                          </div>
-
-                          <div class="item">
-                            <img src="img/rdm4.jpg" alt="Flower" width="460" height="345">
-                          </div>
+<!-- Diapo Carousel 2 Début-->
+                   <div class="diapo_slide">
+                    
+                        <h1>Diapo</h1>
+                        <div class="w3-content w3-section" style="max-width:500px">
+                            <a href="pages/galery.html">
+                              <img class="mySlides2 w3-animate-fading" src="img/006.jpg" style="width:100%">
+                              <img class="mySlides2 w3-animate-fading" src="img/007.jpg" style="width:100%">
+                              <img class="mySlides2 w3-animate-fading" src="img/008.jpg" style="width:100%">
+                              <img class="mySlides2 w3-animate-fading" src="img/009.jpg" style="width:100%">
+                            </a>
                         </div>
-
-                        <!-- Left and right controls -->
-                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                          <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                          <span class="sr-only">Next</span>
-                        </a>
-                      </div>
                     </div>
-        <!-- Diapo Carousel 1 Fin-->
+<!-- Diapo Carousel 2 Fin-->
                   </div>              
               </div> <!-- column -->
 
@@ -192,6 +141,7 @@
                                       <option value="Diam's">
                                     </datalist>
                                 </div>
+                                <button type="button" class="btn btn-success">Lancer la recherche</button>
                             </div> <!--block_gauche-->
                             
                         </div> <!-- column-->
@@ -203,7 +153,7 @@
                             
                             <div class="column" style="width:65%" id="col_droite">
                                 <div id="info_joueur">
-                                    <p class="lead">Bonjour</p>
+                                    <p class="lead">Info joueur</p>
                                 </div>
                             </div>
                             
@@ -234,6 +184,7 @@
                                       <option value="Kronisky">
                                       <option value="Vapuloin">
                                     </datalist>
+                                    
                                 </div>
                                 <div id="formulaire">
                                     <label for="choix_categorie">Catégorie de l'équipe :</label>
@@ -246,13 +197,14 @@
                                       <option value="Diam's">
                                     </datalist>
                                 </div>
+                                <button type="button" class="btn btn-success">Lancer la recherche</button>
                             </div> <!--block_gauche-->
                             
                         </div> <!-- column-->
                         <div class="column" style="width:65%" id="col_droite">
                             <div class="column" style="width:80%" id="col_droite">
                                 <div id="info_equipe">
-                                    <p class="lead">Bonjour</p>
+                                    <p class="lead">Info équipe</p>
                                 </div>
                                 <div id="stat_equipe">
                                     <p class="lead">Statistique</p>
@@ -274,7 +226,11 @@
                   <div class="row">
                     <div class="column col_form_minus">
                       <div class="block_formation">
-                          <div class="titre_page"><h1>Formation</h1></div>
+                          <div class="titre_page"><h1>Formation</h1>
+                              <button type="button" class="btn btn-info  btn_stage">Stage</button>
+                              <button type="button" class="btn btn-info btn_entrainement">Entrainement</button>
+                              <button type="button" class="btn btn-info btn_formation">Formation</button>
+                          </div>
                         </div> <!--block_formation-->
                         <div class="block_formation_minus">
                           <div class="titre_page"><h1>Formation</h1>
@@ -282,13 +238,15 @@
                             <div class="formation1">
                                 <div class="column"
                                      id ="formation_minus" style="width:24%">
-                                    <img src="img/fomr1.png" class="img-circle" alt="Cinque Terre" width="150" height="150">
+                                    <a href="">
+                                        <img src="img/fomr1.png" class="img-circle" alt="Cinque Terre" width="150" height="150">
+                                    </a>
                                 </div>
                                 <div class="column" id="col_droite"
                                      style="width:70%">
                                     <div class="description_stage">
                                         <h2>Stage</h2>
-                                        <p class="lead"> Coucou 1</p>
+                                        <p class="lead"> Description Stage</p>
                                     </div>
                                     
                                 </div>
@@ -298,21 +256,25 @@
                                 <div class="column"
                                      id ="formation_minus"
                                      style="width:24%">
-                                    <img src="img/fomr2.png" class="img-circle" alt="Cinque Terre" width="150" height="150">
+                                    <a href="">
+                                        <img src="img/fomr2.png" class="img-circle" alt="Cinque Terre" width="150" height="150">
+                                    </a>
                                 </div>
                                 <div class="column description_entrainement" id="col_droite" style="width:70%">
                                     <h2>Entrainement</h2>
-                                    <p class="lead"> Coucou 2</p>
+                                    <p class="lead"> Description entrainement</p>
                                 </div>
                             </div>
                             <div class="formation3">
                                 <div class="column"
                                      id ="formation_minus" style="width:24%">
-                                    <img src="img/fomr3.png" class="img-circle" alt="Cinque Terre" width="150" height="150">
+                                    <a href="">
+                                        <img src="img/fomr3.png" class="img-circle" alt="Cinque Terre" width="150" height="150">
+                                    </a>
                                 </div>
                                 <div class="column description_formation" id="col_droite" style="width:70%">
                                     <h2>Formation</h2>
-                                    <p class="lead"> Coucou 3</p>
+                                    <p class="lead"> Decrption formation</p>
                                 </div>
                             </div>
                         </div> <!--block_formation-->
@@ -329,7 +291,7 @@
                   <div class="row">
                       <div class="btn_reservation">
                           
-                            <a href="pages/contact.html"><p style="color:white; opacity1;"><strong>Reserver votre court de tennis ici</strong></p></a>
+                            <a href="pages/contact.html"><p style="color:white; opacity1;">Reserver votre court de tennis ici</p></a>
                             
                       </div>
                     </div> <!--row-->
@@ -343,7 +305,7 @@
                   <div class="row">
                       <div class="btn_reservation">
                           
-                            <a href="pages/contact.html"><p style="color:white; opacity1;"><strong>Voir les resultats des matchs ici</strong></p></a>
+                            <a href="pages/contact.html"><p style="color:white; opacity1;">Voir les resultats des matchs ici</p></a>
                             
                       </div>
                     </div> <!--row-->
@@ -470,7 +432,8 @@
                       </div> <!-- column-->
                     </div> <!--row-->
                     <div class="row button_comite">
-                        <button type="button" class="btn btn-success">Devenir membre</button>
+                        <a href="pages/contact.html"><button type="button" class="btn btn-success">Devenir membre</button></a>
+                        
                     </div>
 
                 </div> <!--row_content-->
@@ -523,21 +486,62 @@
         
      </div> <!--col-sm-9 -->
 <!-- MAIN FIN --> 
+<style>
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+.diapo_slide {
+    width:90%;
+}
+
+</style>
+
+<script>
+//************ diapo1 **********   
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+    
+//*********** diapo2 auto **********
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides2");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 9000);    
+}
+    
+</script>
 </body>
 </html>
-
-<!-- sponsors : spie, decth, subway, hermine maritime, sg, cycles peugeot, -->
-
-
-<div id="section2">
-    <div class="row-container fluid page_">
-        <div class="row-content">
-          <div class="row">
-            <div class="column" style="width:45%">
-              <div class="block_sponsor">
-                </div> <!--block_-->
-              </div> <!-- column-->
-            </div> <!--row-->
-        </div> <!--row_content-->
-    </div> <!--row_container fluid-->
-</div> <!-- Fin de Section -->
