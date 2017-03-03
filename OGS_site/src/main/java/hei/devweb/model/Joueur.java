@@ -14,6 +14,10 @@ public class Joueur {
 	
 	private String pswd ;
 	
+	private int equipe_id;
+	
+	private String information;
+	
 	public Joueur(long id, String nom, String prenom, int numero_adherant){
 		super();
 		this.id = id;
@@ -21,6 +25,22 @@ public class Joueur {
 		this.prenom = prenom;
 		this.numero_adherant = numero_adherant;
 	}
+	
+	public Joueur(long id, String nom, String prenom, int numero_adherant, int equipe_id){
+		super();
+		this.id = id;
+		this.nom = nom;
+		this.prenom = prenom;
+		this.numero_adherant = numero_adherant;
+		this.equipe_id=equipe_id;
+	}
+
+	public Joueur() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
 
 	public long getId() {
 		return id;

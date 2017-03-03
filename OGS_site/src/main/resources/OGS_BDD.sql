@@ -2,11 +2,11 @@ CREATE TABLE `joueur` (
 	`joueur_id` int(11) NOT NULL AUTO_INCREMENT,
 	`nom` varchar(200) NOT NULL,
 	`prenom` varchar(200) NOT NULL,
-	`numero_adherent` int(1) NOT NULL,
+	`numero_adherent` int(11) NOT NULL,
 	PRIMARY KEY (`joueur_id`),
 	`login` varchar(100),
 	`pswd` varchar(100),
-	`administrateur` boolean NOT null,
+	`administrateur` boolean NOT null,s
 	`information` varchar(350),
 	`equipe_id` int(11) ,
 	KEY `equipe_id_fk`(`equipe_id`),

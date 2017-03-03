@@ -19,4 +19,14 @@
     <servlet-name>Index_servlet</servlet-name>
     <url-pattern>/Index_servlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeconnexionServlet</display-name>
+    <servlet-name>DeconnexionServlet</servlet-name>
+    <servlet-class>hei.devweb.servlets.DeconnexionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeconnexionServlet</servlet-name>
+    <url-pattern>/DeconnexionServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
