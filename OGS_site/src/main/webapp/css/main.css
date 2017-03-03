@@ -197,7 +197,7 @@
 }
 
 .block_formation {
-    background-image: url(../img/formation0.png);
+    background-image: url(../img/formation00.jpg);
     width:1520px;
     height:680px;
     background-repeat: no-repeat;
@@ -233,6 +233,7 @@
     border-style: solid;
     border-radius: 10px;
     padding-top: 10px;
+    background-color: white;
 }
 
 /*
@@ -424,6 +425,46 @@ address {
     color: black;
 }
 
+.btn_stage{
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 150px;
+    height: 30px;
+    border: none;
+}
+.btn_entrainement{
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 150px;
+    height: 30px;
+    border: none;
+}
+.btn_formation {
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 150px;
+    height: 30px;
+    border: none;
+}
 
+.planning_entrainement, .planning_stage, .planning_formation {    
+    display:none;
+    width: 480px;
+    height: 450px;
+    text-align: center;
+    margin: 10px;
+    color : white;
+    border-radius: 15px;
+    background-color: rgba(214,214,214,0.8);
+}
 
+.planning_entrainement{
+    margin-left: 20px;
+}
 
+.planning_formation{
+    margin-left: 2px;
+}
